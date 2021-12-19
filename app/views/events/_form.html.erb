@@ -43,6 +43,12 @@
 
   <br>
   <div>
-    <%= form.submit %>
+    <% form.label :date, style: "display: block" %>
+    <%= form.number_field :user_id, id: :event_user_id, value: current_user.id, type: :hidden,  class:"field" %>
+  </div>
+
+  <br>
+  <div>
+    <%= form.submit class:"btn" %>
   </div>
 <% end %>

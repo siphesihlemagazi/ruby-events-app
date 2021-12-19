@@ -1,2 +1,14 @@
-<h1>Langing Page</h1>
+<% if user_signed_in? %>
+
+<h1>Welcome to this app</h1>
 <p>What this app all about?</p>
+<p> <strong> This app gives you the latest events happening around town. </strong> </p>
+
+<% else %>
+
+<h1>Welcome to this app</h1>
+<p>What this app all about?</p>
+<p> <strong> This app gives you the latest events happening around town. </strong> </p>
+<p> You may <%= link_to "sign up", new_user_registration_path %> to post your own events. </p>
+
+<% end %>
