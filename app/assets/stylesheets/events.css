@@ -13,8 +13,24 @@
 .d-btn{
     padding: 5px;
     background-color: rgb(245, 51, 51);
-    border: 1px solid #000;
-    font-weight: bold;
+    border: 1px solid grey;
     border-radius: 3px;
     color: #fff;
+}
+.a-btn{
+    padding: 4px;
+    background-color: cadetblue;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .field{
+    padding: 5px;
+    width: 100%;
+}
 }
