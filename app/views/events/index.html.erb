@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag "events", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+
+<p style="color: green"><%= notice %></p>
+
+<h1>Events</h1>
+ <br>
+<div id="events">
+  <% @events.each do |event| %>
+    <%= render event %>
+    <p>
+      <%= link_to "Show this event", event %>
+    </p>
+    <br>
+  <% end %>
+</div>
+
+<%= link_to "New event", new_event_path %>

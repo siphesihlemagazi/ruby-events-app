@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eventsapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="application.css">
+</head>
+  <nav>
+        <ul>
+            <li>
+                <%= link_to "EVENTS APP", root_path %>
+            </li>
+            <li>
+                <%= link_to "Events", events_path %>
+            </li>
+            <li>
+                <%= link_to "Add event", new_event_path %>
+            </li>
+            <li>
+                <a href="">Signup</a>
+            </li>
+            <li>
+                <a href="">Singin</a>
+            </li>
+            <li>
+                <a href="">Signout</a>
+            </li>
+        </ul>
+    </nav>
+
+  <body>
+
+    <div class="content">
+      <%= yield %>
+    </div>
+
+  </body>
+
+</html>

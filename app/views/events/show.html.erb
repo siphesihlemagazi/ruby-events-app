@@ -1,0 +1,14 @@
+<%= stylesheet_link_tag "events", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+
+<p style="color: green"><%= notice %></p>
+
+<%= render @event %>
+
+<div>
+<br>
+  <%= link_to "Edit this event", edit_event_path(@event) %> |
+  <%= link_to "Back to events", events_path %>
+  <br><br>
+  <%= button_to "Destroy this event", @event, method: :delete %>
+</div>
