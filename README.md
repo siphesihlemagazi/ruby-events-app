@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, this is my ruby on rails Events app.
 
-Things you may want to cover:
+- On this app you may create, update and delete a user account. You may also create, update and delete an 'event'.
 
-* Ruby version
+- Users may perform certain actions only on their account or created 'events', i.e update, create, delete.
 
-* System dependencies
+- Ruby version: 3.0.3p157
 
-* Configuration
+- System dependencies: Wondows (production machine)
 
-* Database creation
+- Database creation: one to many
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check it out...
