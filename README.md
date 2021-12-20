@@ -1,6 +1,6 @@
-# Ruby on rails app
+# Ruby on rails Events app v1
 
-Hello, this is my ruby on rails ## Events app v1.
+Hello, this is my ruby on rails Events app.
 
 ## What does it do?
 
