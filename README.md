@@ -2,11 +2,11 @@
 
 Hello, this is my ruby on rails Events app.
 
-## What does it do
+## What does it do?
 
 - On this app you may create, update and delete a user account. You may also create, update and delete an 'event'.
 
-- Users may perform certain actions only on their account or created 'events', i.e update, create, delete.
+- Users may perform certain actions only on their account and created 'events', i.e update, create, delete.
 
 ## Tech Stack
 
