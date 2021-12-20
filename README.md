@@ -1,6 +1,8 @@
-# README
+# Ruby on rails app
 
 Hello, this is my ruby on rails Events app.
+
+# What does it do
 
 - On this app you may create, update and delete a user account. You may also create, update and delete an 'event'.
 
@@ -12,4 +14,5 @@ Hello, this is my ruby on rails Events app.
 
 - Database creation: one to many
 
-Check it out...
+## Link
+Check it out here: https://railseventsappbysiphe.herokuapp.com/events
