@@ -8,6 +8,8 @@ Hello, this is my ruby on rails Events app.
 
 - Users may perform certain actions only on their account and created 'events', i.e update, create, delete.
 
+- A user may reset password
+
 ## Tech Stack
 
 - Ruby version: 3.0.3p157
