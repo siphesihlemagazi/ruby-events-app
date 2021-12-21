@@ -25,7 +25,7 @@ This app gives you the latest events happening around town, posted by other user
 
 - Css
 
-- System dependencies: Wondows (production machine)
+- System dependencies: Windows (production machine)
 
 - Database creation: one to many
 
