@@ -1,6 +1,6 @@
 # Ruby on rails Events app v1
 
-Hello, this is my ruby on rails Events app (built during interview period).
+Hello, this is my ruby on rails Events app (built during interview process).
 
 ## What does it do?
 This app gives you the latest events happening around town, posted by other users.
